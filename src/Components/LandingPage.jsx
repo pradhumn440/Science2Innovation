@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import FormComponent from "./FormComponent";
+import AIComponent from "./AIComponent";
 
 function App() {
   return (
@@ -8,9 +9,11 @@ function App() {
       <div>
           <Navbar />
       </div>
-      <div className="flex flex-1" >
-      </div>
       <hr/>
+      <div className="flex flex-auto" >
+      <AIComponent/>
+      <FormComponent/>
+      </div>
     </>
   );
 }
