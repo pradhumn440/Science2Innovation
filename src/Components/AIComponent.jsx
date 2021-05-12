@@ -4,7 +4,7 @@ const AIComponent = () => {
  return (
     <>
        <div style={{width:"940px"}}>
-
+    
        </div>
     </>
  );
