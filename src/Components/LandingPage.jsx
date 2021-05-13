@@ -10,7 +10,7 @@ function App() {
           <Navbar />
       </div>
       <hr/>
-      <div className="flex flex-auto" >
+      <div className="flex flex-auto mx-36 my-10" >
       <AIComponent/>
       <FormComponent/>
       </div>

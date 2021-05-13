@@ -5,28 +5,30 @@ import "tailwindcss/tailwind.css";
 
 const Navbar = () => {
     return (
-        <div className="flex justify-center h-20">
-            <div className="m-5 ml-0">
-            <a href=""><Logo className="h-11"/></a>
+        <div className="md:flex md:flex-shrink flex flex-auto justify-self-center">
+          <div className="flex mx-36 my-1 justify-self-center" style={{width:"72.25rem"}}> 
+            <div className="text-base justify-self-center">
+            <a href=""><Logo className="h-11 mr-6 my-6"/></a>
             </div>
-            <div className="m-5 mt-8 ml-8">
+            <div className="text-base my-9 mx-6 justify-self-center">
                 <a href=""><b>Find internship</b></a>
             </div>
-            <div className="m-5 mt-8 ml-6">
+            <div className="text-base my-9 mx-6 justify-self-center">
             <a href="">For employers</a>
             </div>
-            <div className="m-5 mt-8 ml-6">
+            <div className="text-base my-9 mx-6 justify-self-center">
             <a href="">Blog</a>
             </div>
-            <div className="m-5 mt-8" style={{marginLeft:"260px"}}>
+            <div className="text-base my-9 mr-6 justify-self-center" style={{marginLeft:"16rem"}}>
             <a href="">Sign up</a>
             </div>
-            <div className="m-5 mt-8 ml-6">
+            <div className="text-base my-9 mx-6 justify-self-center">
             <a href="">Sign in</a>
             </div>
-            <div className="m-5 mt-8 ml-6">
-            <a href=""><span className="bg-black text-white p-6 pt-2 pb-2 border-black font-bold rounded">Post internship</span></a>
-            </div>
+            <button className="px-5 py-2 h-10 my-7 ml-2 bg-black text-white border-black font-bold text-sm justify-self-center">
+            <a href="">Post internship</a>
+            </button>
+          </div>
         </div>
     );
 };

@@ -1,12 +1,16 @@
 import React from 'react';
 import "tailwindcss/tailwind.css";
 import "../css/toggle.css";
+import { ReactComponent as Ig } from "../Images/ig.svg";
+import { ReactComponent as Fb } from "../Images/fb.svg";
+import { ReactComponent as Twitter } from "../Images/twitter.svg";
+import { ReactComponent as Slack } from "../Images/slack.svg";
 
 const FormComponent = () => {
    return (
        <>
            <div>
-           <form className="h-96 mt-10 mb-5 md:flex md:items-center w-full" style={{background:"#F2F2F5", width:"22.5rem" }} >
+           <form className="h-96 mb-5 md:flex md:items-center w-full" style={{background:"#F2F2F5", width:"22.5rem" }} >
               <div className="md:items-center m-5 mb-6">
                  <label class="font-medium text-base" for="grid-first-name">
                   <b>Keywords</b>
@@ -19,6 +23,7 @@ const FormComponent = () => {
                    </label>
                    <div class="relative mt-2">
                    <select class="block appearance-none bg-white border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white  h-12 w-80 mb-6 focus:border-gray-500" id="grid-state">
+                        <option>Select Category</option>
                         <option>Engineering</option>
                         <option>Design</option>
                         <option>Marketing</option>
@@ -45,7 +50,7 @@ const FormComponent = () => {
                       <input type="checkbox" name="toggle" id="toggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-2 appearance-none border-gray-400"/>
                     <label for="toggle" class="toggle-label block overflow-hidden h-6 rounded-full cursor-pointer" style={{background:"#A4A4B3"}}></label>
                   </div>
-                  <label class="text-base justify-items-center" for="grid-first-name">
+                  <label class="text-base justify-items-center pt-2" for="grid-first-name">
                       Remote Friendly
                     </label>
                 </div>
@@ -65,6 +70,53 @@ const FormComponent = () => {
                   </div>
                 </div>
             </div>
+           </div>
+           <div>
+               <div className="flex justify-center mt-5">
+                    <a href="" className="hover:underline text-black">
+                        Internfeed
+                    </a>
+                    <a>
+                    •
+                    </a>
+                    <a href="" className="hover:underline text-black">
+                        Find internships
+                    </a>
+               </div>
+               <div className="flex justify-center">
+                   <a href="" className="hover:underline text-black">
+                       For employers
+                   </a>
+                   <div>
+                    •
+                    </div>
+                    <a href="" className="hover:underline text-black">
+                       Blog
+                   </a>
+                   <div>
+                    •
+                    </div>
+                   <a href="" className="hover:underline text-black">
+                       FAQ
+                   </a>
+                   <div>
+                    •
+                    </div>
+                   <a href="" className="hover:underline text-black">
+                       About
+                   </a>
+               </div>
+               <div className="flex justify-center">
+                   <div className="hover:underline text-black">
+                       Terms
+                   </div>
+               </div>
+               <div className="flex justify-center mt-3">
+                    <a href="" className="h-6 w-6 mx-2" ><Ig/></a>
+                    <a href="" className="h-6 w-6 mx-2" ><Fb/></a>
+                    <a href="" className="h-6 w-6 mx-2" ><Twitter/></a>
+                    <a href="" className="h-6 w-6 mx-2" ><Slack/></a>
+               </div>
            </div>
         </div>
        </>
