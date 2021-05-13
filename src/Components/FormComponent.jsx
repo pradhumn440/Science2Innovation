@@ -47,8 +47,8 @@ const FormComponent = () => {
                       <input class="bg-white appearance-none border-2 duration-700 border-gray-200 py-2 px-4 text-gray-700 leading-tight focus:border-black hover:border-black focus:bg-white mb-5 mt-2 h-12 w-80" id="inline-full-name" type="text" placeholder="Select City"/>
                    </div>
                 <div>
-                   <div class="relative inline-block w-11 mr-2 align-middle select-none transition duration-1000 ease-in">
-                      <input type="checkbox" name="toggle" id="toggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-2 duration-700 appearance-none border-gray-400"/>
+                   <div class="relative inline-block w-11 mr-2 align-middle select-none ease-in">
+                      <input type="checkbox" name="toggle" id="toggle" class="toggle-checkbox duration-1000 absolute block w-6 h-6 rounded-full bg-white border-2 appearance-none border-gray-400"/>
                     <label for="toggle" class="toggle-label block overflow-hidden h-6 rounded-full cursor-pointer bg-gray-400"></label>
                   </div>
                   <label class="text-base justify-items-center pt-2" for="grid-first-name">
@@ -112,7 +112,7 @@ const FormComponent = () => {
                        Terms
                    </div>
                </div>
-               <div className="flex justify-center mt-3">
+               <div className="flex justify-center mt-5">
                     <a href="" className="m-2 mt-0"><Ig/></a>
                     <a href="" className="m-2 mt-0"><Fb/></a>
                     <a href="" className="m-2 mt-0"><Twitter/></a>

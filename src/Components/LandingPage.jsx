@@ -6,11 +6,11 @@ import AIComponent from "./AIComponent";
 function App() {
   return (
       <>
-      <div>
-          <Navbar />
+      <div className="overflow-hidden bg-white" style={{position:"fixed", width:"100%", top:"0"}} >
+          <Navbar/>
+          <hr/>
       </div>
-      <hr/>
-      <div className="flex flex-auto mx-36 my-10" >
+      <div className="flex flex-auto mx-36 my-10 mt-32" >
       <AIComponent/>
       <FormComponent/>
       </div>
