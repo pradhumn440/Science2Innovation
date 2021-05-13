@@ -1,0 +1,10 @@
+svg {
+    background: white;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  svg:hover {
+    filter: invert(1);
+  }

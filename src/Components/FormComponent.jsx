@@ -1,6 +1,7 @@
 import React from 'react';
 import "tailwindcss/tailwind.css";
 import "../css/toggle.css";
+import "../css/svg.css";
 import { ReactComponent as Ig } from "../Images/ig.svg";
 import { ReactComponent as Fb } from "../Images/fb.svg";
 import { ReactComponent as Twitter } from "../Images/twitter.svg";
@@ -112,10 +113,10 @@ const FormComponent = () => {
                    </div>
                </div>
                <div className="flex justify-center mt-3">
-                    <a href="" className="h-6 w-6 mx-2" ><Ig/></a>
-                    <a href="" className="h-6 w-6 mx-2" ><Fb/></a>
-                    <a href="" className="h-6 w-6 mx-2" ><Twitter/></a>
-                    <a href="" className="h-6 w-6 mx-2" ><Slack/></a>
+                    <a href="" className="m-2 mt-0"><Ig/></a>
+                    <a href="" className="m-2 mt-0"><Fb/></a>
+                    <a href="" className="m-2 mt-0"><Twitter/></a>
+                    <a href="" className="m-2 mt-0"><Slack/></a>
                </div>
            </div>
         </div>
