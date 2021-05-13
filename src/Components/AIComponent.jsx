@@ -23,7 +23,7 @@ const AIComponent = () => {
                     <div className="text-xl font-bold">
                         Available Internships
                     </div>
-                    <div style={{marginLeft:"26.5rem",marginTop:"4px"}}>
+                    <div style={{marginLeft:"26.5rem"}}>
                         <Alert/>
                     </div>
                     <a href="" className="text-base ml-3 font-normal underline hover:no-underline" style={{color:"#EB5757",marginTop:"1px"}}>

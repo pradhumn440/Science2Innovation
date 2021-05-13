@@ -1,4 +1,4 @@
-import { ReactComponent as Logo } from "../Images/logo.svg";
+import Logo from "../Images/logo.png";
 import React from 'react';
 import "tailwindcss/tailwind.css";
 
@@ -7,8 +7,8 @@ const Navbar = () => {
     return (
         <div className="md:flex md:flex-shrink flex flex-auto justify-self-center">
           <div className="flex mx-36 my-1 justify-self-center" style={{width:"72.25rem"}}> 
-            <div className="text-base justify-self-center">
-            <a href=""><Logo className="h-11 mr-6 my-6"/></a>
+            <div className="justify-center">
+            <a href=""><img src={Logo} alt="Internfeed" className="h-9 mr-6 my-7"/></a>
             </div>
             <div className="text-base my-9 mx-6 justify-self-center">
                 <a href=""><b>Find internship</b></a>
