@@ -12,12 +12,11 @@ import Facebook from "../Images/Facebook.png";
 import CustomInk from "../Images/CustomInk.png";
 import Microsoft from "../Images/Microsoft.png";
 import Apple from "../Images/Apple.png";
-import IBM from "../Images/IBM.png";
 
 const AIComponent = () => {
  return (
     <>
-        <div className="md:w-auto md:flex mr-4 focus" style={{width:"58.75rem"}}>
+        <div className="md:w-auto md:flex mr-4" style={{width:"48.75rem"}}>
             <div>
                 <div className="flex mb-6">
                     <div className="text-xl font-bold">
